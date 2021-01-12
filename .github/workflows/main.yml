@@ -63,7 +63,7 @@ jobs:
         run: 'sfdx force:org:delete -p -u scratch-org' 
       
       - name: 'Deploy to developer sandbox'
-        run: 'sfdx force:source:deploy -p force/main/default/ -u devhub'
+        run: 'sfdx force:source:deploy -p force-app/main/default/ -u devhub'
 
         
         
